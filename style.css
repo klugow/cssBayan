@@ -1,0 +1,58 @@
+.transition, ul li i:before, ul li i:after, p {
+    transition: all 0.25s ease-in-out;
+  }
+  .transition, ul li i:before, ul li i:after, img {
+    transition: all 0.25s ease-in-out;
+  }
+  .flipIn, ul li, h1 {
+    animation: flipper 0.5s ease both;
+  }
+  .no-select, h2 {
+    user-select: none;
+  }
+  html {
+    width: 100%;
+    height: 100%;
+    font-family: Sono, sans-serif;
+    background-color: #a3aaad;
+    color: rgba(36, 92, 152, 0.8);
+    overflow-y: scroll;
+  }
+  body {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin: 50px 0;
+    transform: translate(-50%, 0);
+    box-shadow: 0 10px 0 0 #5c2c2f inset;
+    background-color: #fefffa;
+    max-width: 1920px;
+    padding: 30px;
+  }
+  h1, h2 {
+    color: #962f06db;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-align: center;
+  }
+  h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    background-color: #fefffa;
+    margin: 0;
+    cursor: pointer;
+  }
+  h2:hover {
+    background-color: #30a618;
+    }
+    h1:hover {
+    background-color: #5c2c2f;
+    }
