@@ -217,6 +217,9 @@
         opacity: 1;
         transform: translate(0, 1%);
       }
+      ul li:hover {
+        background-color: #d2dbdf;
+      }
   }
 
 
