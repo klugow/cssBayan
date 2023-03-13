@@ -9,10 +9,11 @@
 
   body {
     display: inline-block;
-    position: relative;
+
     left: 50%;
     margin: 2% 0;
-    transform: translate(-50%, 0);
+    transform: translate(10%, 0);
+
     background-color: #fefffa;
     width: 80%;
     max-width: 160rem;
