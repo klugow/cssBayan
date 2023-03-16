@@ -14,6 +14,7 @@
     margin: 2% 0;
     transform: translate(-50%, 0);
     background-color: #fefffa;
+    /* background-color: #aaa; */
     width: 80%;
     max-width: 160rem;
     /* 1920 */
@@ -140,6 +141,39 @@
     transform: translate(0, 50%);
   }
 
+  ul li input[type=checkbox]:checked:hover ~ i {
+    margin-top: 0;
+    opacity: 1;
+    width: 1rem;
+    height: 1rem;
+    transform: translate(-0.3rem, 0) rotate(-180deg);
+  }
+
+  ul li input[type=checkbox]:checked:hover ~ h2 {
+    margin-top: 0;
+    max-height: 5rem;
+    opacity: 1;
+    transform: translate(0, 1%);
+  }
+
+  ul li input[type=checkbox]:checked:hover ~ p {
+    margin-top: 2%;
+    max-height: 100%;
+    opacity: 1;
+    transform: translate(0, 10%);
+  }
+
+  ul li input[type=checkbox]:checked:hover ~ img {
+    max-height: 100%;
+    opacity: 1;
+    transform: translate(0, 1%);
+  }
+  ul li:hover {
+    background-color: #d2dbdf;
+  }
+
+
+
   ul li input[type=checkbox]:checked ~ i:before {
     transform: translate(0.2rem, 0) rotate(45deg);
   }
@@ -190,39 +224,14 @@
   }
 
 /* 1200 */
-  @media (min-width: 120rem) {
-    ul li input[type=checkbox]:checked:hover ~ i {
-        margin-top: 0;
-        opacity: 1;
-        width: 1rem;
-        height: 1rem;
-        transform: translate(-0.3rem, 0) rotate(-180deg);
-      }
+  /* @media (min-width: 120rem) {
+    */
+    @media (hover:hover){
 
-      ul li input[type=checkbox]:checked:hover ~ h2 {
-        margin-top: 0;
-        max-height: 5rem;
-        opacity: 1;
-        transform: translate(0, 1%);
-      }
-
-      ul li input[type=checkbox]:checked:hover ~ p {
-        margin-top: 2%;
-        max-height: 100%;
-        opacity: 1;
-        transform: translate(0, 10%);
-      }
-
-      ul li input[type=checkbox]:checked:hover ~ img {
-        max-height: 100%;
-        opacity: 1;
-        transform: translate(0, 1%);
-      }
-      ul li:hover {
-        background-color: #d2dbdf;
-      }
-  }
-
+      .input:hover {
+        color: black;
+        cursor: pointer;
+  } }
 
 /* 820 */
 @media (max-width: 68rem) {
